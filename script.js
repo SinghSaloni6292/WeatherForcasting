@@ -1,5 +1,5 @@
 const apiKey = "2eb6bc17ab8c43a18f592345242212";
-const apiUrl = "http://api.weatherapi.com/v1/current.json";
+const apiUrl = "https://api.weatherapi.com/v1/current.json";
 
 document.getElementById("getWeather").addEventListener("click", async () => {
   const region = document.getElementById("region").value;
